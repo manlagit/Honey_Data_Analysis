@@ -1,0 +1,11 @@
+{
+    "accuracy": 0.9392857142857143,
+    "precision": 0.9465706707086018,
+    "recall": 0.9392857142857143,
+    "f1": 0.9399712320668783,
+    "training_time": 409.74525213241577,
+    "prediction_time": 4.489131927490234,
+    "batch_size": 25,
+    "learning_rate": 0.001,
+    "optimizer": "rmsprop"
+}

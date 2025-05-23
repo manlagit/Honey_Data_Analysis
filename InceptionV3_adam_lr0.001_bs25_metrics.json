@@ -1,0 +1,11 @@
+{
+    "accuracy": 0.9321428571428572,
+    "precision": 0.9516774891774893,
+    "recall": 0.9321428571428572,
+    "f1": 0.929252423093131,
+    "training_time": 522.6382904052734,
+    "prediction_time": 4.212188482284546,
+    "batch_size": 25,
+    "learning_rate": 0.001,
+    "optimizer": "adam"
+}
