@@ -1,0 +1,49 @@
+{
+    "experiment_name": "kelulut_resnet34_adam_lr0.001_bs25",
+    "dataset_type": "kelulut",
+    "model_architecture": "resnet34",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "batch_size": 25,
+    "num_classes": 4,
+    "test_accuracy": 1.0,
+    "test_loss": 0.0,
+    "precision_macro": 0.0,
+    "recall_macro": 0.0,
+    "f1_score_macro": 0.0,
+    "total_training_time_seconds": 248.5662956237793,
+    "total_training_time_minutes": 4.1427715937296545,
+    "prediction_over_test_set_seconds": 9.625240564346313,
+    "confusion_matrix": [
+        [
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            281,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "class_names_for_cm": [
+        "pure_kelulut",
+        "mkc1",
+        "mkc2",
+        "mkc3"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "experiment_name": "kelulut_vgg16_adam_lr0.001_bs16",
+    "dataset_type": "kelulut",
+    "model_architecture": "vgg16",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "num_classes": 4,
+    "test_accuracy": 1.0,
+    "test_loss": 8.344647994817933e-07,
+    "precision_macro": 0.0,
+    "recall_macro": 0.0,
+    "f1_score_macro": 0.0,
+    "total_training_time_seconds": 468.2699635028839,
+    "total_training_time_minutes": 7.804499391714732,
+    "prediction_over_test_set_seconds": 14.482014894485474,
+    "confusion_matrix": [
+        [
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            281,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "class_names_for_cm": [
+        "pure_kelulut",
+        "mkc1",
+        "mkc2",
+        "mkc3"
+    ]
+}
