@@ -1,0 +1,75 @@
+{
+    "experiment_name": "tualang_vgg16_adam_lr0.01_bs25",
+    "dataset_type": "tualang",
+    "model_architecture": "vgg16",
+    "optimizer": "adam",
+    "learning_rate": 0.01,
+    "batch_size": 25,
+    "num_classes": 6,
+    "test_accuracy": 0.6085106134414673,
+    "test_loss": 1.078005313873291,
+    "precision_macro": 0.0,
+    "recall_macro": 0.0,
+    "f1_score_macro": 0.0,
+    "total_training_time_seconds": 1564.2153754234314,
+    "total_training_time_minutes": 26.07025625705719,
+    "prediction_over_test_set_seconds": 10.842801094055176,
+    "confusion_matrix": [
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            47,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            47,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            49,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            45
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            47
+        ]
+    ],
+    "class_names_for_cm": [
+        "pure_tualang",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+    ]
+}

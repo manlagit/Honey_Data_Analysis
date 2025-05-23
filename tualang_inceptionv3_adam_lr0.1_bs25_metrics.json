@@ -1,0 +1,75 @@
+{
+    "experiment_name": "tualang_inceptionv3_adam_lr0.1_bs25",
+    "dataset_type": "tualang",
+    "model_architecture": "inceptionv3",
+    "optimizer": "adam",
+    "learning_rate": 0.1,
+    "batch_size": 25,
+    "num_classes": 6,
+    "test_accuracy": 0.2085106372833252,
+    "test_loss": 1.6273167133331299,
+    "precision_macro": 0.0,
+    "recall_macro": 0.0,
+    "f1_score_macro": 0.0,
+    "total_training_time_seconds": 479.7602276802063,
+    "total_training_time_minutes": 7.996003794670105,
+    "prediction_over_test_set_seconds": 3.21282696723938,
+    "confusion_matrix": [
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            47,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            47,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            49,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            45,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            47,
+            0,
+            0
+        ]
+    ],
+    "class_names_for_cm": [
+        "pure_tualang",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+    ]
+}
